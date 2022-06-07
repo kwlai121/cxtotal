@@ -1,2 +1,30 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import "./abstracts/variables.scss";
+@import "abstracts/_variables.scss";
+body{
+    a{text-decoration: none;}
+}
+
+/*1. Header*/
+
+/*1.1 Navbar*/
+
+.wrap{
+
+    footer{
+        background-color: $primaryColor;
+        p{
+            color: $secondaryColor;
+            font-size: 18px;
+        }
+        a{
+            color:$secondaryColor;
+            font-size: 18px;
+        }
+
+    }
+
+}
+
+
+
+

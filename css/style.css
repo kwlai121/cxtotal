@@ -10646,7 +10646,23 @@ fieldset:disabled .btn {
   }
 }
 
-h1, .h1 {
-  color: red;
+body a {
+  text-decoration: none;
+}
+
+/*1. Header*/
+/*1.1 Navbar*/
+.wrap footer {
+  background-color: #292D38;
+}
+
+.wrap footer p {
+  color: #D8F8F0;
+  font-size: 18px;
+}
+
+.wrap footer a {
+  color: #D8F8F0;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
