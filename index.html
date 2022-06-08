@@ -12,18 +12,11 @@
 <body>
      <div class="container-fluid wrap">
        <!-- Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -46,95 +39,146 @@
               </div>
             </div>
           </nav>
-
+        </div>
           <!-- JUMBOTRON -->
-          <div class="d-flex container-fluid heroBg" lc-helper="background">
-            
-            <div class="jumbotron">
-              <h1 class="display-4">Jumbotron</h1>
-              <p class="lead">This is  a jumbotron created using the bootstrap 4</p>
-              <hr class="my-4">
-              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
-          
-          </div>
+          <div class="py-7 py-sm-8 py-lg-10 py-xxl-9 py-xxl-11 heroBg"></div>
+          <div class="container">
 
+            <section class="mb-n9 mb-lg-n11 p-0" style="transform: translateY(calc(-70% - 25px));">
+              
+                <div class="position-relative hero-carousel-container" id="heroCarouselContainer">
+                  <div class="carousel slide" id="hero-carousel" data-bs-ride="carousel">
+                    <div class="position-relative">
 
-          <div class="container p-5 bg-light" style="margin-top:-100px">
-            <div class="row">
-              <div class="col-md-4 text-center align-self-center">
-                <div class="lc-block border-end border-2 ">
-                  <div editable="rich">
-                    <p class="display-4 text-secondary">WHY?</p>
+                      <div class="hero-social-icons d-none d-lg-block">
+                        <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item mr-2"><a class="text-decoration-none" href="#!"><img class="list-social-icon" src="img/icons/instagram.svg" width="30" alt="..." /></a></li>
+                          <li class="list-inline-item mr-2"><a class="text-decoration-none" href="#!"><img class="list-social-icon" src="img/icons/facebook.svg" width="30" alt="..." /></a></li>
+                          <li class="list-inline-item mr-2"><a class="text-decoration-none" href="#!"><img class="list-social-icon" src="img/icons/twitter.svg" width="30" alt="..." /></a></li>
+                        </ul>
+                      </div>
+
+                      <div class="carousel-inner" id="heroCarouselInner">
+                        <div class="carousel-item active"><img class="d-block w-100 img-fluid" src="img/header-slider-1.png" height="517" alt="..." />
+                  
+                            <div class="carousel-caption d-none d-sm-block">
+                              <h1>Insert headline here</h1>
+                              <p class="lead">Second line here</p>
+                                <a class="btn btn-primary btn-lg text-start"  href="#" role="button">Descubra nuestros servicios</a>
+                            </div>
+               
+                        </div>
+                        <!--
+                        <div class="carousel-item"><img class="d-block w-100 img-fluid" src="img/header-slider-2.png" height="517" alt="..." />
+                          
+                          <div class="carousel-caption d-none d-sm-block">
+                            <h1>Insert headline here</h1>
+                            <p class="lead">Second line here</p>
+                              <a class="btn btn-primary btn-lg text-start"  href="#" role="button">Descubra nuestros servicios</a>
+                          </div>
+
+                        </div>
+                        
+                        <div class="carousel-item"><img class="d-block w-100 img-fluid" src="img/header-slider-3.png" height="517" alt="..." />
+                          <div class="carousel-caption d-none d-sm-block">
+                            <h1>Insert headline here</h1>
+                            <p class="lead text-start">Second line here</p>
+                              <a class="btn btn-primary btn-lg text-start"  href="#" role="button">Descubra nuestros servicios</a>
+                          </div>
+                        </div>
+                        -->
+
+                      </div>
+                    </div>
+
+                    <!--<div class="row g-0">
+                      <div class="col-3 position-relative">
+                        <div class="carousel-indicators justify-content-start custom-indicators">
+                          <button class="active" type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"> </button>
+                        </div>
+                      </div>
+
+                    </div>-->
                   </div>
-                </div><!-- /lc-block -->
-              </div><!-- /col -->
-              <div class="col-md-8">
-                <div class="lc-block ">
-                  <div editable="rich">
-                    <p class="display-4">Think different and create a wonderful kind of digital agency.</p>
-                  </div>
-                </div><!-- /lc-block -->
-              </div><!-- /col -->
-            </div>
-            <div class="row">
-              <div class="col-md-9 offset-md-1">
-                <div class="lc-block mt-5">
-                  <div editable="rich">
-                    <p class="lead text-secondary"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat. In pellentesque scelerisque auctor.&nbsp;</p>
-                    <p class="lead text-secondary">Ut porta lacus eget nisi fermentum lobortis. Vestibulum facilisis tempor
-                      ipsum, ut rhoncus magna ultricies laoreet. Proin vehicula erat eget libero accumsan iaculis. </p>
-                  </div>
-                </div><!-- /lc-block -->
-              </div><!-- /col -->
-            </div>
-          </div>
-          <!-- Footer -->
-          <footer>
-            
-            <div class="row">
-              <div class="col-12 col-sm-7 p-5 d-flex">
-                <img class="img-fluid" src="img/logoFooter.svg" alt="">
-              </div>
-
-              <div class="col-12 col-sm-3 py-2 py-sm-5 px-5">
-                <div class="d-flex p-1 justify-content-sm-end">
-
-                  <img class="icon-envelope mx-1" src="img/envelope.svg" alt="">
-                  <a href="tel: 71115516">+506 71111-5516</a>
-                
                 </div>
-              </div>
+           
+            </section>
+                      
 
-              <div class="col-12 col-sm-2 py-2 py-sm-5 px-5">
-                  <div class="d-flex p-1 justify-content-sm-end">
+          </div>
+        <!-- What is cx total -->
+        <div class="container mb-5">
+          <div class="row ">
+            <div class="col-12 text-center">
+              <h1>Qué es CX Total?</h1>
+              <p class="w-50 mx-auto">Somos una organización centrada en la estrategia de mejora del servicio al cliente. Buscamos crear las bases de una mejor 
+                experiencia de servicio a través de la creación de Customer Journey Map (análisis del recorrido del cliente), transformando 
+                la cultura y enfocándonos en que nuestro cliente sea el centro de todo lo que hacemos. </p>
+              <a class="btn btn-outline-primary" href="">Ver más</a>
+          </div>
+         </div>
+      </div>
+      <!-- La atención de servicio ha evolucionado -->   
+      <div class="container mb-5">
+        <div class="row ">
+          <div class="col-12 col-sm-6">
 
-                    <img class="icon-whatsapp mx-1" src="img/whatsapp.svg" alt="">
-                    <a href = "mailto: info@cxtotal.com">info@cxtotal.com</a>
-                
-                  </div>
-              </div>
+          </div>
+          <div class="col-12 col-sm-3">
 
-            </div>
+          </div>
+          <div class="col-12 col-sm-3">
 
-            <hr class="my-3 mx-2 bg-light">
-
-            <div class="row">
-
-              <div class="col-12 col-sm-8 px-5 d-flex">
-                <p>Derechos Reservados. CX Total
-                Sociedad Anonima XXXXXXXX.... 2022</p>
-              </div>
-              <div class="col-12 col-sm-4 px-5 d-flex justify-content-sm-end">
-                <a href="#">Política de privacidad</a>
-              </div>
-
-            </div>
-          </footer>   
-
+          </div>
+       </div>
+    </div>
 
      </div>
+               <!-- Footer -->
+               <footer>
+                <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-7 p-5 d-flex">
+                    <img class="img-fluid" src="img/logoFooter.svg" alt="">
+                  </div>
+    
+                  <div class="col-12 col-sm-3 py-2 py-sm-5 px-5">
+                    <div class="d-flex p-1 justify-content-sm-end">
+    
+                      <img class="icon-envelope mx-1" src="img/envelope.svg" alt="">
+                      <a href="tel: 71115516">+506 71111-5516</a>
+                    
+                    </div>
+                  </div>
+    
+                  <div class="col-12 col-sm-2 py-2 py-sm-5 px-5">
+                      <div class="d-flex p-1 justify-content-sm-end">
+    
+                        <img class="icon-whatsapp mx-1" src="img/whatsapp.svg" alt="">
+                        <a href = "mailto: info@cxtotal.com">info@cxtotal.com</a>
+                    
+                      </div>
+                  </div>
+    
+                </div>
+    
+                <hr class="my-3 mx-2 bg-light">
+    
+                <div class="row">
+    
+                  <div class="col-12 col-sm-8 px-5 d-flex">
+                    <p>Derechos Reservados. CX Total
+                    Sociedad Anonima XXXXXXXX.... 2022</p>
+                  </div>
+                  <div class="col-12 col-sm-4 px-5 d-flex justify-content-sm-end">
+                    <a href="#">Política de privacidad</a>
+                  </div>
+    
+                </div>
+              </div>
+              </footer>   
 </body>
 <!-- MDB -->
 <script
