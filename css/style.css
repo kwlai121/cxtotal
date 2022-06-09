@@ -10652,38 +10652,51 @@ body a {
 
 /*1. Header*/
 /*1.1 Navbar*/
+.wrap {
+  padding: 0px !important;
+}
+
+.wrap nav .bg-white {
+  --bs-bg-opacity: 0;
+}
+
 .wrap .heroBg {
-  height: 50vh;
+  height: 490px;
   background: url("../img/jumboBg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.wrap .heroBg .jumbotron {
-  display: block;
-  background-image: url("../img/jumboImg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.wrap .hero-social-icons {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 300px;
-  left: 0;
   right: 0;
-  width: 1150px;
-  height: auto;
+  top: -44px;
 }
 
-.wrap footer {
+.wrap .carousel-caption {
+  position: absolute;
+  bottom: 7.25rem;
+  left: 5%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
+.wrap .mb-lg-n11 {
+  margin-bottom: -15rem !important;
+}
+
+footer {
   background-color: #292D38;
 }
 
-.wrap footer p {
+footer p {
   color: #D8F8F0;
   font-size: 18px;
 }
 
-.wrap footer a {
+footer a {
   color: #D8F8F0;
   font-size: 18px;
 }
