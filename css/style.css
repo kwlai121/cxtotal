@@ -10646,8 +10646,17 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 body a {
   text-decoration: none;
+}
+
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: #07D2F5 !important;
 }
 
 /*1. Header*/
@@ -10685,6 +10694,15 @@ body a {
 
 .wrap .mb-lg-n11 {
   margin-bottom: -15rem !important;
+}
+
+.wrap .section2 {
+  background-color: #D8F8F0;
+}
+
+.wrap .section2 h1, .wrap .section2 .h1 {
+  font-size: 42px;
+  font-weight: 700;
 }
 
 footer {
