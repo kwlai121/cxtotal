@@ -59,11 +59,11 @@ body{
 
 }
 
-#pricing-tables {
+.pricing-tables {
     padding: 30px 0;
 }
 
-.single-table {
+.single-table{
     background: $single-table-bg;
     -webkit-transition: all 0.20s linear;
     transition: all 0.20s linear;
@@ -85,11 +85,18 @@ body{
     
         }
     }
+
+    & .plan-content {
+        color: $table-header;
+        padding: 25px 0;
+
+    }
+
     & .plan-header-bgBasic {
         background: $plan-header-bgBasic;
         & h3 {
             margin: 0;
-            padding: 20px 0 5px 0;
+            padding: 13px 0 8px 0;
             color: $black;
       
         }
@@ -98,7 +105,7 @@ body{
         background: $lightGreen1;
         & h3 {
             margin: 0;
-            padding: 20px 0 5px 0;
+            padding: 13px 0 8px 0;
             color: $black;
       
         }
@@ -107,7 +114,7 @@ body{
         background: $lightBlue;
         & h3 {
             margin: 0;
-            padding: 20px 0 5px 0;
+            padding: 13px 0 8px 0;
             color: $black;
       
         }
@@ -116,7 +123,7 @@ body{
         background: $darkBlue;
         & h3 {
             margin: 0;
-            padding: 20px 0 5px 0;
+            padding: 13px 0 8px 0;
             color: $white;
       
         }
@@ -149,8 +156,8 @@ body{
         text-decoration: none;
         margin: 20px 0 30px 0;
         padding: 10px 40px;
-        border: 1px solid $plan-header-bg;
-        color: $plan-header-bg;
+        border: 1px solid $ctaBlue;
+        color: $ctaBlue;
         font-size: 15px;
         text-transform: uppercase;
     }
@@ -176,7 +183,7 @@ body{
         left: 0;
         right: 0;
         bottom: 0;
-        background: #34495E;
+        background: $ctaBlue;
         -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
         transform: scaleX(0);
@@ -204,6 +211,13 @@ body{
     }
 }
 
+.tableContent{
+    background: none;
+    &:hover {
+        box-shadow: 0px 0px 0px 0px #888888;
+
+    }
+}
 footer{
     background-color: $primaryColor;
     p{
