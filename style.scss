@@ -8,7 +8,50 @@ body{
     --bs-bg-opacity: 1;
     background-color:$lightBlue !important;
   }
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?r468mt');
+    src:  url('fonts/icomoon.eot?r468mt#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?r468mt') format('truetype'),
+      url('fonts/icomoon.woff?r468mt') format('woff'),
+      url('fonts/icomoon.svg?r468mt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
   
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-bars .path1:before {
+    content: "\e900";
+    color: rgb(7, 210, 245);
+  }
+  .icon-bars .path2:before {
+    content: "\e901";
+    margin-left: -1.125em;
+    color: rgb(206, 205, 205);
+  }
+  .icon-bars .path3:before {
+    content: "\e902";
+    margin-left: -1.125em;
+    color: rgb(206, 205, 205);
+  }
+  
+  .fa-circle-check{
+    color: $lightGreen1;
+  }
 /*1. Header*/
 
 /*1.1 Navbar*/
@@ -58,7 +101,30 @@ body{
     }
 
 }
+.icon-bars .path1:before {
+    content: "\e900";
+    color: #07d2f5;
+  }
+  .icon-bars .path2:before {
+    content: "\e901";
+    color: #cecdcd;
+    margin-left: -1.125em;
+  }
+  .icon-bars .path3:before {
+    content: "\e902";
+    color: #cecdcd;
+    margin-left: -1.125em;
+    margin-right: 6px;
 
+  }
+
+  .fa-regular, .far {
+    margin-right: 10px;
+  }
+.card1{
+    background-color: $secondaryColor;
+}
+.ctitle{font-size: 16px;;}
 .pricing-tables {
     padding: 30px 0;
 }
