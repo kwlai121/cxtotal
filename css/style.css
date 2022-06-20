@@ -10739,6 +10739,11 @@ body a {
   margin-bottom: -15rem !important;
 }
 
+.wrap .section1 {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
 .wrap .section2 {
   background-color: #D8F8F0;
 }
@@ -10746,6 +10751,12 @@ body a {
 .wrap .section2 h1, .wrap .section2 .h1 {
   font-size: 42px;
   font-weight: 700;
+}
+
+.wrap .box {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip: padding-box;
 }
 
 .icon-bars .path1:before {
@@ -10951,5 +10962,9 @@ footer p {
 footer a {
   color: #D8F8F0;
   font-size: 18px;
+}
+
+footer span {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
