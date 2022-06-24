@@ -10950,6 +10950,117 @@ body a {
   box-shadow: 0px 0px 0px 0px #888888;
 }
 
+/*Nosotros*/
+/*Jumbotron*/
+.wrapJumbo {
+  background-color: #292D38;
+}
+
+.wrapJumbo .jumbotron {
+  background: #292D38;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapJumbo .jumbotron .container h1, .wrapJumbo .jumbotron .container .h1 {
+  color: #3CDEB4;
+  font-size: 52px;
+}
+
+.wrapJumbo .jumbotron .container a {
+  background-color: #07d2f5;
+  color: #000;
+}
+
+.pseudo-partial-border {
+  position: relative;
+  padding: 7px;
+  margin: 50px;
+  border: none;
+}
+
+.pseudo-partial-border::before,
+.pseudo-partial-border::after {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  content: "";
+}
+
+.pseudo-partial-border::before {
+  left: 0;
+  top: 0;
+  border-left: 10px solid #3CDEB4;
+  border-top: 10px solid #3CDEB4;
+}
+
+.pseudo-partial-border::after {
+  right: 0;
+  bottom: 0;
+  border-right: 10px solid #3CDEB4;
+  border-bottom: 10px solid #3CDEB4;
+}
+
+.events li {
+  display: flex;
+  color: #999;
+}
+
+.events time {
+  position: relative;
+  padding: 0 0em;
+}
+
+.events time::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  border-radius: 50%;
+  background: #fff;
+  border: 2px #3CDEB4 solid;
+  width: .8em;
+  height: .8em;
+}
+
+.events span {
+  padding: 0 1.5em 1.5em 1.5em;
+  position: relative;
+}
+
+.events span::after {
+  border-bottom: 1px solid gray;
+}
+
+.events span::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 100%;
+  border-left: 2px #3CDEB4 solid;
+}
+
+.events strong {
+  display: block;
+  font-weight: bolder;
+}
+
+.events {
+  margin: 1em;
+  width: 75%;
+}
+
+.events,
+.events *::before,
+.events *::after {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
 footer {
   background-color: #292D38;
 }
@@ -10966,5 +11077,45 @@ footer a {
 
 footer span {
   color: #fff;
+}
+
+/*Media Queries*/
+@media (max-width: 991.98px) {
+  .wrap .heroBg {
+    height: 300px;
+    background: url(../img/jumboBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carousel-caption {
+    top: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wrap .heroBg {
+    height: 165px;
+    background: url(../img/jumboBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrap .section1 {
+    margin-top: 150px;
+    margin-bottom: 70px;
+  }
+  .carousel-caption {
+    top: 0.2rem;
+    margin: 0;
+  }
+  .carousel-caption h1, .carousel-caption .h1 {
+    font-size: 18px;
+  }
+  .carousel-caption .sndLine {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .carousel-caption a {
+    font-size: 0.6rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

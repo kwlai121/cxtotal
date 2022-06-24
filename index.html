@@ -18,7 +18,7 @@
      <div class="container-fluid wrap">
        <!-- Navbar-->
        <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-xl navbar-light bg-white">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,8 +37,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled"
-                      >Disabled</a
-                    >
+                      >Disabled</a>
                   </li>
                 </ul>
               </div>
@@ -65,9 +64,9 @@
                       <div class="carousel-inner" id="heroCarouselInner">
                         <div class="carousel-item active"><img class="d-block w-100 img-fluid" src="img/header-slider-1.png" height="517" alt="..." />
                   
-                            <div class="carousel-caption d-none d-sm-block">
+                            <div class="carousel-caption">
                               <h1>Insert headline here</h1>
-                              <p class="lead">Second line here</p>
+                              <p class="lead sndLine">Second line here</p>
                                 <a class="btn btn-primary btn-lg text-start"  href="#" role="button">Descubra nuestros servicios</a>
                             </div>
                
@@ -115,7 +114,7 @@
           <div class="row ">
             <div class="col-12 text-center">
               <h1>Qué es CX Total?</h1>
-              <p class="w-50 mx-auto">Somos una organización centrada en la estrategia de mejora del servicio al cliente. Buscamos crear las bases de una mejor 
+              <p class="w-75 w-lg-75 mx-auto">Somos una organización centrada en la estrategia de mejora del servicio al cliente. Buscamos crear las bases de una mejor 
                 experiencia de servicio a través de la creación de Customer Journey Map (análisis del recorrido del cliente), transformando 
                 la cultura y enfocándonos en que nuestro cliente sea el centro de todo lo que hacemos. </p>
               <a class="btn btn-outline-primary" href="">Ver más</a>
@@ -181,7 +180,7 @@
     <!--Por qué escoger CXTotal?-->
     <div class="container py-5 section3">
       <div class="row py-5">
-        <div class="col-12 d-flex mb-5">
+        <div class="col-12 d-flex">
           <h1 class="flex-grow-1">Por qué escoger CXTotal?</h1>
           <img class="img-fluid" src="img/Carousel.svg" alt="carousel">          
         </div>
@@ -376,7 +375,7 @@
         <div class="row">
           <div class="col-12 text-center">
               <h1 class="py-4">Membresías</h1>
-              <p class="w-50 mx-auto">Las membresías son una herramienta que, por medio de un pago mensual, permite a las personas tener recursos y herramientas 
+              <p class="w-75 w-lg-75 mx-auto">Las membresías son una herramienta que, por medio de un pago mensual, permite a las personas tener recursos y herramientas 
                 para alcanzar objetivos a corto, mediano y largo plazo. Además de conocimiento, también vamos a revisar casos reales 
                 y podemos trabajar de mano con las personas en sus negocios. Tenemos cuatro tipos de membresías: 
               </p>
@@ -535,7 +534,26 @@
                 <span class="flex-grow-1">Basic</span> 
                 <span>xx horas</span>
               </div>
-              <a href="#" class="btn btn-outline-info d-block">Ver curso</a>
+
+              <a href="" class="btn btn-outline-info d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver curso</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -957,7 +975,7 @@
   </footer>    
 </body>
 <!-- MDB -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
