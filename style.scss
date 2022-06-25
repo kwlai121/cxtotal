@@ -104,6 +104,11 @@ body{
         }
 
     }
+    .section3{
+        .btnModal{
+            background-color: $ctaBlue;
+        }
+    }
     .box{
         box-sizing: border-box;
         border: 3px solid transparent;
@@ -440,7 +445,7 @@ footer{
 
     .wrap {
         .heroBg {
-            height: 165px;
+            height: 184px;
             background: url(../img/jumboBg.svg);
             background-repeat: no-repeat;
             background-size: cover;
