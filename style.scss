@@ -63,6 +63,28 @@ body{
     nav .bg-white{
         --bs-bg-opacity: 0;
     }
+    .navbar-nav{
+        
+        li{
+            a{
+                color: $ctaBlue;
+            }
+        }
+        
+        
+    } 
+    /*NAVBAR*/
+    .navbarButton{
+        background-color: $ctaBlue;
+        
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    /*End navbar*/
     .heroBg{
         height: 490px;
         background:url("../img/jumboBg.svg");

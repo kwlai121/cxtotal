@@ -24,6 +24,18 @@ $plan-price-color: #fff;
 $plan-price-month-color: #8394AE;
 $plan-price-border: lighten($plan-header-bg, 20%);
 
+//Navbar
+
+$tertiaryColor: #005292; // light blue
+
+$flex_nav_hoverColor:darken($secondaryColor,5%);
+$flex_nav_borderColor: darken($secondaryColor,10%);
+$flex_nav_linkColor: white;
+$flex_nav_hotdogsColor: white;
+
+$flex_nav_subNavWidth: 12.5em;
+$flex_nav_breakpoint: 48em;
+
 // X-Small devices (portrait phones, less than 576px)
 $breakpoint-xs: 575.98px;
 // Small devices (landscape phones, less than 768px)

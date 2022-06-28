@@ -10706,10 +10706,27 @@ body a {
 /*1.1 Navbar*/
 .wrap {
   padding: 0px !important;
+  /*NAVBAR*/
+  /*End navbar*/
 }
 
 .wrap nav .bg-white {
   --bs-bg-opacity: 0;
+}
+
+.wrap .navbar-nav li a {
+  color: #017ABE;
+}
+
+.wrap .navbarButton {
+  background-color: #017ABE;
+}
+
+.wrap .navbar-toggler:focus,
+.wrap .navbar-toggler:active,
+.wrap .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .wrap .heroBg {
