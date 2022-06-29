@@ -18,40 +18,41 @@
 <body>
       <!-- Wrap beggining-->
      <div class="container-fluid wrap">
-       <!-- Navbar-->
-       <div class="container">
-        <!--New-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <!-- Navbar-->
+      <div class="container">
+              <!-- Responsive navbar-->
+      <nav class="navbar navbar-expand-xs">
+      <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+          <div class="d-flex">
+            <button class="btn btn-primary navbarButton">Contáctenos</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="#">Navbar</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
           </div>
-        </nav>
-        <!--end new-->
-
-        </div>
-        <!-- End Navbar-->
-    <!-- Header Start -->
-    <div class="container-fluid wrapJumbo">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" 
+                      ria-expanded="false">Modalidades de trabajo</a>
+                      <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="mt_intensivo.html">Intensivo</a></li>
+                          <li><a class="dropdown-item" href="mt_creacion_cero.html">Creación desde 0</a></li>
+                          <li><a class="dropdown-item" href="mt_estrategia_cx.html">Estrategia e implementación de CX</a></li>
+                          <li><a class="dropdown-item" href="mt_plan_hibrido.html">Plan Híbrido</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </nav>
+      </div>
+      <!-- End Navbar-->    
+<div class="container-fluid wrapJumbo">
         <div class="container">
             <div class="jumbotron jumbotron-fluid mb-5">
                 <div class="container text-left py-5">

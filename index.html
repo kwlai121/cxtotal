@@ -18,46 +18,38 @@
      <div class="container-fluid wrap">
        <!-- Navbar-->
        <div class="container">
-        <nav class="navbar navbar-light">
-          <div class="container-fluid">
-            <img src="img/logo.svg" alt="">
-            <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
-              data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-        </nav>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+        <!-- Responsive navbar-->
+<nav class="navbar navbar-expand-xs">
+<div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+    <div class="d-flex">
+      <button class="btn btn-primary navbarButton">Contáctenos</button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" 
+                ria-expanded="false">Modalidades de trabajo</a>
+                <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="mt_intensivo.html">Intensivo</a></li>
+                    <li><a class="dropdown-item" href="mt_creacion_cero.html">Creación desde 0</a></li>
+                    <li><a class="dropdown-item" href="mt_estrategia_cx.html">Estrategia e implementación de CX</a></li>
+                    <li><a class="dropdown-item" href="mt_plan_hibrido.html">Plan Híbrido</a></li>
+                </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-        </div>
-        <!-- End Navbar-->
+        </ul>
+    </div>
+</div>
+</nav>
+</div>
+<!-- End Navbar-->
           <!-- JUMBOTRON -->
           <div class="py-7 py-sm-8 py-lg-10 py-xxl-9 py-xxl-11 heroBg"></div>
           <div class="container">
