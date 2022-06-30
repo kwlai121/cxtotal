@@ -10770,6 +10770,13 @@ body a {
   font-weight: 700;
 }
 
+.wrap .section3 {
+  /*Left*/
+  /*Right*/
+  /* ----- MODAL STYLE ----- */
+  /* ----- v CAN BE DELETED v ----- */
+}
+
 .wrap .section3 .btnModal {
   background-color: #017ABE;
 }
@@ -10778,27 +10785,98 @@ body a {
   background-color: #017ABE;
 }
 
+.wrap .section3 .modal.left .modal-dialog,
+.wrap .section3 .modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  transform: translate3d(0%, 0, 0);
+}
+
+.wrap .section3 .modal.left .modal-content,
+.wrap .section3 .modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.wrap .section3 .modal.left .modal-body,
+.wrap .section3 .modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+.wrap .section3 .modal.left.fade .modal-dialog {
+  left: -320px;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.wrap .section3 .modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+.wrap .section3 .modal.right.fade .modal-dialog {
+  right: -320px;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.wrap .section3 .modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+.wrap .section3 .modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.wrap .section3 .modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color: #FAFAFA;
+}
+
+.wrap .section3 body {
+  background-color: #78909C;
+}
+
+.wrap .section3 .demo {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.wrap .section3 .btn-demo {
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+.wrap .section3 .btn-demo:focus {
+  outline: 0;
+}
+
+.wrap .section3 .demo-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #212121;
+  text-align: center;
+}
+
+.wrap .section3 .demo-footer > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
 .wrap .box {
   box-sizing: border-box;
   border: 3px solid transparent;
   background-clip: padding-box;
 }
 
-.icon-bars .path1:before {
-  content: "\e900";
-  color: #07d2f5;
-}
-
-.icon-bars .path2:before {
-  content: "\e901";
-  color: #cecdcd;
-  margin-left: -1.125em;
-}
-
-.icon-bars .path3:before {
-  content: "\e902";
-  color: #cecdcd;
-  margin-left: -1.125em;
+.icon-bars {
   margin-right: 6px;
 }
 
