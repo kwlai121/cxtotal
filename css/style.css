@@ -11221,4 +11221,31 @@ footer span {
     font-size: 0.6rem;
   }
 }
+
+@media (max-width: 575.98px) {
+  .wrap .heroBg {
+    height: 164px;
+    background: url(../img/jumboBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrap .section1 {
+    margin-top: 150px;
+    margin-bottom: 70px;
+  }
+  .carousel-caption {
+    top: 0.2rem;
+    margin: 0;
+  }
+  .carousel-caption h1, .carousel-caption .h1 {
+    font-size: 16px;
+  }
+  .carousel-caption .sndLine {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .carousel-caption a {
+    font-size: 0.6rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

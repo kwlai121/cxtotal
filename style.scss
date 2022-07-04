@@ -582,3 +582,36 @@ footer{
         
     }
 }
+
+@media (max-width: $breakpoint-xs) {
+
+    .wrap {
+        .heroBg {
+            height: 164px;
+            background: url(../img/jumboBg.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .section1 {
+            margin-top: 150px;
+            margin-bottom: 70px;
+        }
+    }
+    .carousel-caption {
+        top: 0.2rem;
+        margin:0;
+        h1{
+            font-size: 16px;
+            
+        }
+        .sndLine{
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        a{
+            font-size: 0.6rem;
+        }
+        
+        
+    }
+}
