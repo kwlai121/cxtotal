@@ -73,10 +73,11 @@
 	</header><!-- #masthead -->
 	<div class="container-fluid wrapJumbo">
         <div class="container">
-            <div class="jumbotron jumbotron-fluid mb-5">
-                <div class="container text-left py-5">
-                    <img class="d-block mb-5" src="../img/icons/sign.png" alt="">
-                    <img class="mb-3" src="../img/Carousel.png" alt="">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container text-left">
+
+					<img class="d-block mb-5" src="<?php echo get_bloginfo('template_url') ?>/img/icons/sign.png"/>
+					<img class="mb-3" src="<?php echo get_bloginfo('template_url') ?>/img/Carousel.png"/>
                     <h1 class="text-white display-3">Blog</h1>
                     <div class="d-inline-flex align-items-right text-white">
 
@@ -88,25 +89,7 @@
     </div>
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <div class="container">
-                <h1>
-                    <?php
-                    if(get_theme_mod( 'header_banner_title_setting' )){
-                        echo esc_attr( get_theme_mod( 'header_banner_title_setting' ) );
-                    }else{
-                        echo 'WordPress + Bootstrap';
-                    }
-                    ?>
-                </h1>
-                <p>
-                    <?php
-                    if(get_theme_mod( 'header_banner_tagline_setting' )){
-                        echo esc_attr( get_theme_mod( 'header_banner_tagline_setting' ) );
-                }else{
-                        echo esc_html__('To customize the contents of this header banner and other elements of your site, go to Dashboard > Appearance > Customize','wp-bootstrap-starter');
-                    }
-                    ?>
-                </p>
+
                 <a href="#content" class="page-scroller"><i class="fa fa-fw fa-angle-down"></i></a>
             </div>
         </div>
