@@ -103,7 +103,7 @@
       <div class="row py-5">
         <div class="col-12 d-flex mb-5">
           <h1 class="flex-grow-1">Nuestros Servicios</h1>
-          <img src="img/Carousel.svg" alt="carousel">
+          <img src="img/Carousel.svg" width="112" height="56" alt="carousel">
         </div>
         <div class="col-12 col-sm-6 mb-3 d-flex align-items-stretch">
           <div class="card">
@@ -137,7 +137,7 @@
       <div class="row py-5">
         <div class="col-12 d-flex">
           <h1 class="flex-grow-1">Por qué escoger CXTotal?</h1>
-          <img class="img-fluid" src="img/Carousel.svg" alt="carousel">          
+          <img class="img-fluid" src="img/Carousel.svg" width="112" height="56" alt="carousel">          
         </div>
       </div>
       <div class="row">
@@ -179,7 +179,7 @@
       <div class="row">
         <div class="col-12 d-flex mb-5">
           <h1 class="flex-grow-1">De qué forma trabajamos?</h1>
-          <img class="img-fluid" src="img/Carousel.svg" alt="carousel">   
+          <img class="img-fluid" src="img/Carousel.svg" width="112" height="56" alt="carousel">   
         </div>
       </div>
 
@@ -374,10 +374,10 @@
                               <ul class="plan-features text-lg-center">
                                   <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Cursos de Contenido CX</span></li>
                                   <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Taller semestral gratis</span></li>
-                                  <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
-                                  <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
-                                  <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
-                                  <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
+                                  <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
+                                  <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
+                                  <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
+                                  <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
                               </ul>
                               <a href="#" class="plan-submit hvr-bounce-to-right d-block text-center" data-bs-toggle="modal" data-bs-target="#contactModal">Solicitar info.</a>
                           </div>
@@ -399,9 +399,9 @@
                                 <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Cursos de Contenido CX</span></li>
                                 <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Taller semestral gratis</span></li>
                                 <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Cliente incógnito y análisis</span></li>
-                                <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
-                                <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
-                                <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
+                                <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
+                                <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
+                                <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
                             </ul>
                             <a href="#" class="plan-submit hvr-bounce-to-right d-block text-center" data-bs-toggle="modal" data-bs-target="#contactModal">Solicitar info.</a>
                           </div>
@@ -423,7 +423,7 @@
                               <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Revisiones mensuales de servicio personalizadas</span></li>
                               <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Revisión de KPI de servicio</span></li>
                               <li><img src="img/icons/iconCX.png" alt=""><span class="d-lg-none">Certificación CX</span></li>
-                              <li class="d-none d-lg-block"><img src="img/icons/iconEX.png" alt=""></li>
+                              <li class="d-none d-lg-block"><img src="img/icons/iconEx.png" alt=""></li>
                           </ul>
                           <a href="#" class="plan-submit hvr-bounce-to-right d-block text-center" data-bs-toggle="modal" data-bs-target="#contactModal">Solicitar info.</a>
                         </div>
@@ -464,7 +464,7 @@
       <div class="row">
         <div class="col-12 d-flex mb-5">
           <h1 class="flex-grow-1">Nuestros cursos</h1>
-          <img class="img-fluid" src="img/Carousel.svg" alt="carousel">
+          <img class="img-fluid" src="img/Carousel.svg" width="112" height="56" alt="carousel">
         </div>
       </div> 
 
@@ -2543,7 +2543,7 @@
       <div class="row">
         <div class="col-12 d-flex mb-5">
           <h1 class="flex-grow-1">Contactenos</h1>
-          <img class="img-fluid" src="img/Carousel.svg" alt="carousel">
+          <img class="img-fluid" src="img/Carousel.svg" width="112" height="56" alt="carousel">
         </div>
       </div>  
       <div class="row">
@@ -2809,7 +2809,7 @@
               </select>
  
               <div class="d-grid gap-2 ">
-                <button class="btn btn-primary" type="button">Enviar</button>
+                <button class="btn btn-primary ctnButton" type="button">Enviar</button>
               </div>
          
         

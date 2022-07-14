@@ -28,7 +28,7 @@
                   a analizar herramientas, procesos y recursos para mejorar integralmente el servicio. </p>
             </div>
             <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="img/image5.jpg" alt="">
+                <img class="img-fluid" src="img/estrategia.jpg" alt="estrategia">
             </div>
         </div>
 
@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-12 d-flex mb-5">
             <h1 class="flex-grow-1">Qué hacemos?</h1>
-            <img class="img-fluid" src="img/carousel.svg" alt="carousel">
+            <img class="img-fluid" src="img/Carousel.svg" width="112" height="56" alt="carousel">
           </div>
         </div>  
         <div class="row">

@@ -27,7 +27,7 @@
                     sistemática solida de atención a sus clientes por medio diferentes herramientas y soluciones:</p>
             </div>
             <div class="col-12 col-lg-6">
-                <img class="img-fluid" style="height: auto;" src="img/image4.jpg" alt="Servicios">
+                <img class="img-fluid" style="height: auto;" src="img/outsourcing.jpg" alt="outsourcing">
             </div>
         </div>
 
@@ -106,7 +106,7 @@
                 <p>Este plan operativo  de mercadeo se puede trabajar de dos formas: </p>
           </div>
           <div class="col-12 col-lg-6">
-              <img class="img-fluid" style="height: auto;" src="img/image4.jpg" alt="Servicios">
+              <img class="img-fluid" style="height: auto;" src="img/marketing.jpg" alt="marketing">
           </div>
       </div>
 

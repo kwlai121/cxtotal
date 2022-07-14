@@ -2,7 +2,7 @@
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
-    $telephone = $_POST['telephone'];
+    	$telephone = $_POST['telephone'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'CX Total - Formulario de contáctenos'; 
@@ -57,15 +57,13 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
     <link rel="stylesheet" href="css/style.css">
-	    <!-- Libraries Stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/country-region-dropdown-menu/2.3.0/css/geodatasource-countryflag-round.min.css" integrity="sha512-RD4tPbyAR51E2opKvsauEYhVyRMteOcYQqsKAKvV6KttgIhCAi1ewa+pH/nRHJsHdxTZ6mLE0U0sM/qFkf0zGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />	    <!-- Libraries Stylesheet -->
 	<link href="lib/animate/animate.min.css" rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/f664d2c2d7.js" crossorigin="anonymous"></script>
-
     <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+        <script>
+            new WOW().init();
+        </script>
 </head>
 <body>
       <!-- Wrap begining-->

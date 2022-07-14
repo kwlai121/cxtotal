@@ -30,7 +30,7 @@
 
             </div>
             <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <img class="img-fluid" src="img/image5.jpg" alt="">
+                <img class="img-fluid" src="img/hybrid.jpg" alt="hibrido">
             </div>
         </div>
     </div>
