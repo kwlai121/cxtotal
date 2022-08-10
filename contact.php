@@ -1,58 +1,36 @@
 <?php
-	if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-        $telephone = $_POST['telephone'];
-        $countries = $_POST['countries'];
-        $info = $_POST['info'];
-		$message = $_POST['message'];
-		$human = intval($_POST['human']);
-		$from = 'CX Total - Formulario de contáctenos'; 
-		$to = 'kwlai121@gmail.com'; 
-		$subject = 'Mensaje de Contact CXtotal';
-		
-		$body ="From: $name\n 
-                Correo Electrónico: $email\n 
-                Mensaje:\n $message\n
-				Telefono: $telephone\n
-				Countries: $countries\n
-				Info: $info\n";
-
-		// Check if name has been entered
-		if (!$_POST['name']) {
-			$errName = 'Por favor, escriba su nombre';
-		}
-		
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Por favor, introduce una dirección de correo electrónico válida';
-		}
-		// Check if number has been entered and is valid
-		if (!$_POST['number']) {
-			$errNumber = 'Por favor, introduce su numero de telefono';
-		}
-		if (!$_POST['telephone']) {
-			$errTelephone = 'Por favor, introduce su numero de telefono';
-		}
-		if (!$_POST['countries']) {
-			$errCountries = 'Por favor, introduce su numero de telefono';
-		}		
-		//Check if message has been entered
-		if (!$_POST['message']) {
-			$errMessage = 'Por favor ingrese su mensaje';
-		}
-		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
-
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">¡Gracias! estaré en contacto</div>';
-	} else {
-		$result='<div class="alert alert-danger">Lo siento, hubo un error al enviar tu mensaje. Por favor, inténtelo de nuevo más tarde.</div>';
-	}
+if(empty($_POST['name']) ||
+   empty($_POST['telephone']) ||
+   empty($_POST['countries']) ||
+   empty($_POST['info']) ||
+   !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+   http_response_code(500);
+   exit();
+   
 }
-	}
+if(isset($_POST['info'])) {
+  $info = filter_var($_POST['info'], FILTER_SANITIZE_STRING);
+
+}
+
+if(isset($_POST['countries'])) {
+  $countries = filter_var($_POST['countries'], FILTER_SANITIZE_STRING);
+}
+
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$email = strip_tags(htmlspecialchars($_POST['email']));
+$telephone = strip_tags(htmlspecialchars($_POST['telephone']));
+/*$countries = strip_tags(htmlspecialchars($_POST['countries']));*/
+/*$info = strip_tags(htmlspecialchars($_POST['info']));*/
+/*$m_subject = strip_tags(htmlspecialchars($_POST['subject']));
+$message = strip_tags(htmlspecialchars($_POST['message']));*/
+
+$to = "info@tstcr.com"; // Change this email to your //
+$subject = "$m_subject:  $name";
+$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nTelephone: $telephone\n\nCountries: $countries\n\nInfo: $info";
+$header = "From: $email";
+$header .= "Reply-To: $email";
+
+if(!mail($to, $subject, $body, $header))
+  http_response_code(500);
 ?>

@@ -10710,6 +10710,12 @@ body a {
   display: none;
 }
 
+.help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+}
+
 /*1. Header*/
 /*1.1 Navbar*/
 .wrap {
@@ -11170,10 +11176,6 @@ body a {
 .events *::after {
   box-sizing: border-box;
   font-family: arial;
-}
-
-.ctnButton {
-  background-color: #017ABE;
 }
 
 footer {

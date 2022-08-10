@@ -51,7 +51,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cxtotal</title>
-    <!-- Font Awesome -->
+    <!-- Favicon  -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -59,6 +63,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/country-region-dropdown-menu/2.3.0/css/geodatasource-countryflag-round.min.css" integrity="sha512-RD4tPbyAR51E2opKvsauEYhVyRMteOcYQqsKAKvV6KttgIhCAi1ewa+pH/nRHJsHdxTZ6mLE0U0sM/qFkf0zGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />	    <!-- Libraries Stylesheet -->
 	<link href="lib/animate/animate.min.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/f664d2c2d7.js" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
         <script>

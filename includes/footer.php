@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row py-5">    
         <div class="col-12 col-md-5 py-4"> 
-          <img src="img/logoFooter.png" alt="">
+          <a href="index.php"><img src="img/logoFooter.png" alt=""></a> 
         </div>
        
         <div class="col-12 col-md-3 pt-sm-5 pt-xs-4 d-flex justify-content-lg-end"> 
@@ -43,11 +43,21 @@
       new WOW().init();
     </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/country-region-dropdown-menu/2.3.0/js/geodatasource-cr.min.js" integrity="sha512-4pfeZ8Z+sTLaut7WK37szOOvzjTjVIOdhdOtzYafLbbZvcuRvpR1rBB3W6lGaQaULOo8JMs4nDeMuiLo5L15CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
+
+<!-- Template Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script><!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Contact Javascript File -->
+<script src="jqBootstrapValidation.min.js"></script>
+<script src="contact.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
 </html>

@@ -22,7 +22,7 @@
                             <div class="carousel-caption">
                               <h1>Desarrollamos la Experiencia al cliente</h1>
                               <p class="lead sndLine">Soluciones Integrales</p>
-                                <a class="btn btn-primary btn-lg text-start"  href="servicios.html" role="button">Descubra nuestros servicios</a>
+                                <a class="btn btn-primary btn-lg text-start"  href="servicios.php" role="button">Descubra nuestros servicios</a>
                             </div>
                
                         </div>
@@ -72,7 +72,7 @@
               <p class="w-75 w-lg-75 mx-auto">Somos una organización centrada en la estrategia de mejora del servicio al cliente. Buscamos crear las bases de una mejor 
                 experiencia de servicio a través de la creación de Customer Journey Map (análisis del recorrido del cliente), transformando 
                 la cultura y enfocándonos en que nuestro cliente sea el centro de todo lo que hacemos. </p>
-              <a class="btn btn-outline-primary" href="nosotros.html">Ver más</a>
+              <a class="btn btn-outline-primary" href="nosotros.php">Ver más</a>
           </div>
          </div>
       </div>
@@ -127,7 +127,7 @@
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <a class="btn btn-primary btn-lg serviceBtn"  href="servicios.html" role="button">Descubra nuestra oferta de servicios</a>
+          <a class="btn btn-primary btn-lg serviceBtn"  href="servicios.php" role="button">Descubra nuestra oferta de servicios</a>
         </div>
       </div>
     </div>
@@ -213,7 +213,7 @@
 
             <div class="col-12 col-lg-4">
               <div class="d-flex  justify-content-end">
-                <a href="mt_intensivo.html" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
+                <a href="mt_intensivo.php" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
               </div>
             </div>
 
@@ -247,7 +247,7 @@
 
             <div class="col-12 col-lg-4">
               <div class="d-flex  justify-content-end">
-                <a href="mt_creacion_cero.html" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
+                <a href="mt_creacion_cero.php" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
               </div>
             </div>
 
@@ -280,7 +280,7 @@
 
             <div class="col-12 col-lg-4">
               <div class="d-flex  justify-content-end">
-                <a href="mt_estrategia_cx.html" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
+                <a href="mt_estrategia_cx.php" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
               </div>
             </div>
 
@@ -313,7 +313,7 @@
 
             <div class="col-12 col-lg-4">
               <div class="d-flex  justify-content-end">
-                <a href="mt_plan_hibrido.html" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
+                <a href="mt_plan_hibrido.php" class="btn btn-outline-primary align-self-center mt-4">Ver más</a>
               </div>
             </div>
 
