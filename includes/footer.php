@@ -58,6 +58,6 @@
 <script src="jqBootstrapValidation.min.js"></script>
 <script src="contact.js"></script>
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <!--<script src="js/main.js"></script>-->
 
 </html>
