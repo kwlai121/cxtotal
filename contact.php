@@ -20,10 +20,10 @@ if(isset($_POST['countries'])) {
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email = strip_tags(htmlspecialchars($_POST['email']));
 $telephone = strip_tags(htmlspecialchars($_POST['telephone']));
-/*$countries = strip_tags(htmlspecialchars($_POST['countries']));*/
-/*$info = strip_tags(htmlspecialchars($_POST['info']));*/
-/*$m_subject = strip_tags(htmlspecialchars($_POST['subject']));
-$message = strip_tags(htmlspecialchars($_POST['message']));*/
+$countries = strip_tags(htmlspecialchars($_POST['countries']));
+$info = strip_tags(htmlspecialchars($_POST['info']));
+$m_subject = strip_tags(htmlspecialchars($_POST['subject']));
+$message = strip_tags(htmlspecialchars($_POST['message']));
 
 $to = "info@tstcr.com"; // Change this email to your //
 $subject = "$m_subject:  $name";
